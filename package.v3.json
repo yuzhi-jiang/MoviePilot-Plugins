@@ -1,0 +1,15 @@
+{
+  "MoviePilotLocalOps": {
+    "name": "本地运维工具集",
+    "description": "把日志读取与受限命令执行注册为 Agent / MCP 工具，用于排查 MoviePilot 运行时问题。",
+    "labels": "运维,日志,诊断,MCP,Agent,本地工具",
+    "version": "1.0.0",
+    "icon": "MoviePilotLocalOps.png",
+    "author": "local",
+    "level": 1,
+    "system_version": ">=3.1.0",
+    "history": {
+      "v1.0.0": "首个版本：注册 mp_logs（日志列举/尾部读取/正则检索）与 mp_local_exec（白名单受限命令执行，默认关闭）两个 Agent / MCP 工具，附审计日志。"
+    }
+  }
+}
